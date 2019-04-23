@@ -42,16 +42,3 @@ grid = grid.fit(X_train, y_train)
 print("The best parameters are %s with a score of %0.2f"
     % (grid.best_params_, grid.best_score_))
 
-
-kernel = ['rbf', 'linear', 'sigmoid']
-gamma = [0.001, 0.0001]
-C = [0.1, 1, 10]
-
-
-
-
-model = SVR(kernel = 'sigmoid', C = 1, gamma = 0.001)
-regr = MultiOutputRegressor(model)
-regr.fit(X_train, y_train)
-regr.score(X_train, y_train)
-

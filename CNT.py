@@ -7,7 +7,6 @@ Created on Tue Apr 23 15:49:03 2019
 
 import numpy as np
 from pandas import read_excel
-import keras
 from sklearn import svm
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.model_selection import train_test_split

@@ -1,4 +1,15 @@
-HOW TO RUN CLUSTERING EXPERIMENT:
+### HOW TO RUN Phishing_SVM:
+
+The code for SVM experiment is inside " Phishing_SVM.ipynb".
+
+Specifically:
+
+1. The first cell read the input and pre process data
+2. the second cell is implementation for K-fold cross validation 
+3. the 3rd cell is the implementation for SVM. Kenerl_method and N_degree is the kernel function the SVM is going to use. The coeficient is set to be 1 by default. 
+4. The rest cells are runing SVM model with different kernel method, and it will print the average accuracy of the SVM model. 
+
+### HOW TO RUN CLUSTERING EXPERIMENT:
 
 The code for clustering experiment is inside "Clustering experiments.ipynb".
 
@@ -16,4 +27,3 @@ From this result, we can calculate how many of each actual class is correctly cl
 5. 5th cell: Running Gaussian Mixture Model for the training data using sklearn
 
 6. 6th cell: Evaluate how many of each class is misclustered.
- 

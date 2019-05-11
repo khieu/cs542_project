@@ -9,7 +9,7 @@ Specifically:
 3. the 3rd cell is the implementation for SVM. Kenerl_method and N_degree is the kernel function the SVM is going to use. The coeficient is set to be 1 by default. 
 4. The rest cells are runing SVM model with different kernel method, and it will print the average accuracy of the SVM model. 
 
-###HOW TO RUN CLUSTERING EXPERIMENT:
+### HOW TO RUN CLUSTERING EXPERIMENT:
 
 The code for clustering experiment is inside "Clustering experiments.ipynb".
 
